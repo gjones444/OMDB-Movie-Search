@@ -6,12 +6,7 @@ export default class Home extends Component {
     super(props);
     this.state = {
       poster: [],
-      searching: undefined
     };
-  }
-
-  searchByTitle() {
-    this.setState({searching: this.refs.movieSearch.value})
   }
 
   searchMovie() {
